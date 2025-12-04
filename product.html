@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprite | Product</title>
+    <meta name="description" content="Produk Sprite – varian, deskripsi, dan media promosi.">
+    <!-- Bootstrap 4.6 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <a class="skip-link" href="#main">Lewati ke konten utama</a>
+    <header class="navbar" role="banner">
+        <div class="logo">
+            <a href="index.html">
+                <img src="Sprite Summer logo - Amr Abd Elkhalek (1).jpg" alt="Sprite logo" class="logo-img">
+                <span class="logo-text">SPRITE</span>
+            </a>
+        </div>
+        <nav role="navigation" aria-label="Menu Utama">
+            <button class="nav-toggle" aria-controls="primary-menu" aria-expanded="false" aria-label="Buka menu">
+                <span class="hamburger"></span>
+            </button>
+            <ul id="primary-menu" class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="product.html" aria-current="page">Product</a></li>
+                <li><a href="about.html">About Brand</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="search-icon" aria-label="Cari">
+            <i class="fas fa-search" aria-hidden="true"></i>
+        </button>
+    </header>
+
+    <main id="main" class="container">
+        
+        <!-- Video Embed Section: placeholder untuk menaruh video produk -->
+        <section class="video-embed-section" aria-labelledby="video-embed-title">
+            <div class="container">
+                <h3 id="video-embed-title">Video Produk</h3>
+                <div id="videoHolder" class="video-placeholder" role="region" aria-label="Tempat video produk">
+                    <!-- Embedded YouTube (provided) -->
+                    <iframe src="https://www.youtube.com/embed/XhDAoWXQVFs?si=uQVa7kWUNtUmz_1w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width:100%;height:100%;border:0;border-radius:12px;"></iframe>
+                </div>
+            </div>
+        </section>
+
+<!-- Main Product Section -->
+        <section class="product-section">
+            <div class="product-text">
+                <h2 id="product-title">Deskripsi Sprite</h2>
+                <p id="product-description">Sprite adalah minuman berkarbonasi rasa lemon–lime yang identik dengan sensasi segar dan ringan. Ciri khasnya terletak pada perpaduan rasa asam dan manis yang simpel, tanpa warna (bening), serta aroma citrus yang tajam. Produk ini biasanya diposisikan sebagai minuman untuk menghilangkan dahaga dengan cepat, terutama karena karakter “crisp” dari karbonasinya..</p>
+                <ul id="product-features">
+                    <li>Rasa segar lemon & lime </li>
+                    <li>Bebas kafein,, sehingga dianggap cocok untuk semua usia.</li>
+                    <li>Melepas dahaga dengan cepat</li>
+                </ul>
+
+                <!-- Product Specifications -->
+                <div class="product-specs">
+                    <h3>Spesifikasi Produk</h3>
+                    <div class="specs-grid">
+                        <div class="spec-item">
+                            <span class="spec-label">Ukuran</span>
+                            <span class="spec-value" id="spec-size">250ml, 330ml, 500ml, 2L</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Kalori (250ml)</span>
+                            <span class="spec-value" id="spec-calories">105 kkal</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Gula (250ml)</span>
+                            <span class="spec-value" id="spec-sugar">28g</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Tipe</span>
+                            <span class="spec-value" id="spec-type">Carbonated</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CTA Buttons -->
+            </div>
+
+            <div class="product-media">
+                <img id="product-image" src="1.jpg" alt="Sprite Product">
+            </div>
+        </section>
+
+        
+
+    </main>
+
+    <footer role="contentinfo">
+        <div class="footer-left">
+            &copy; 2025 Sprite
+        </div>
+        <div class="footer-center">
+            <a href="https://www.facebook.com/sprite" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/sprite" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/sprite" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+        </div>
+        
+    </footer>
+
+    <!-- Bootstrap 4.6 JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>

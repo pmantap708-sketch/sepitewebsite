@@ -1,0 +1,55 @@
+<!-- Hero SVG: Sprite-themed illustration (green + white) -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e9f9f2"/>
+      <stop offset="100%" stop-color="#f6fff9"/>
+    </linearGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="18" result="b"/>
+      <feBlend in="SourceGraphic" in2="b" mode="normal"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bgGrad)"/>
+
+  <!-- soft green highlights -->
+  <circle cx="300" cy="200" r="180" fill="#e6f8ef"/>
+  <circle cx="1300" cy="300" r="240" fill="#e6f8ef"/>
+
+  <!-- Bottle illustration -->
+  <g transform="translate(820,170)">
+    <path d="M120 0c18 0 32 14 32 32v260c0 18-14 32-32 32H56c-18 0-32-14-32-32V32C24 14 38 0 56 0h64z" fill="#009344"/>
+    <rect x="52" y="-10" width="72" height="20" rx="10" fill="#fff" opacity="0.06"/>
+    <rect x="64" y="72" width="56" height="40" rx="6" fill="#ffff00"/>
+    <text x="92" y="100" font-family="Inter, sans-serif" font-weight="800" font-size="18" fill="#003820" text-anchor="middle">SPRITE</text>
+  </g>
+
+  <!-- Can illustration -->
+  <g transform="translate(420,220)">
+    <rect x="0" y="0" width="160" height="340" rx="20" fill="#ffffff" stroke="#e6f6ee" stroke-width="2"/>
+    <rect x="8" y="6" width="144" height="16" rx="8" fill="#009344"/>
+    <circle cx="80" cy="170" r="42" fill="#009344"/>
+    <text x="80" y="176" font-family="Inter, sans-serif" font-weight="800" font-size="22" fill="#ffffff" text-anchor="middle">SPRITE</text>
+  </g>
+
+  <!-- Play button overlay (optional) -->
+  <g transform="translate(820,480)">
+    <circle cx="0" cy="0" r="52" fill="#009344" opacity="0.95"/>
+    <polygon points="-10,-18 22,0 -10,18" fill="#ffffff"/>
+  </g>
+
+  <!-- Decorative lemon slice -->
+  <g transform="translate(1180,130) scale(0.9)">
+    <circle cx="0" cy="0" r="70" fill="#ffff00"/>
+    <circle cx="0" cy="0" r="58" fill="#fff9cc"/>
+    <g stroke="#ffd400" stroke-width="6" stroke-linecap="round">
+      <path d="M0,-58 L0,0"/>
+      <path d="M50,-15 L0,0"/>
+      <path d="M30,48 L0,0"/>
+      <path d="M-30,48 L0,0"/>
+      <path d="M-50,-15 L0,0"/>
+    </g>
+  </g>
+
+</svg>

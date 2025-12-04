@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 400" width="200" height="400">
+  <!-- Can background -->
+  <defs>
+    <linearGradient id="zeroCanGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e0e0e0;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#f5f5f5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e0e0e0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Can body -->
+  <rect x="40" y="80" width="120" height="240" rx="10" fill="url(#zeroCanGradient)" stroke="#333" stroke-width="2"/>
+  
+  <!-- Can top -->
+  <ellipse cx="100" cy="80" rx="60" ry="15" fill="#e0e0e0" stroke="#333" stroke-width="2"/>
+  
+  <!-- Can rim -->
+  <ellipse cx="100" cy="75" rx="58" ry="12" fill="#cccccc" stroke="#333" stroke-width="1.5"/>
+  
+  <!-- Sprite logo text on can -->
+  <text x="100" y="140" font-size="28" font-weight="bold" text-anchor="middle" fill="#333">SPRITE</text>
+  <text x="100" y="165" font-size="16" font-weight="bold" text-anchor="middle" fill="#666">ZERO</text>
+  
+  <!-- Highlight effect -->
+  <ellipse cx="65" cy="150" rx="8" ry="35" fill="white" opacity="0.3"/>
+  
+  <!-- Zero text -->
+  <text x="100" y="250" font-size="14" text-anchor="middle" fill="#333" font-weight="600">Zero Sugar</text>
+  <text x="100" y="270" font-size="12" text-anchor="middle" fill="#666">Fresh Taste</text>
+</svg>
